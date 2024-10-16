@@ -8,6 +8,13 @@ a{
     text-decoration: none;
     
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
 nav ul{
     display: flex;
     justify-content: center;
@@ -171,11 +178,6 @@ nav ul a{
     border: none;
     gap: 199px;
 }
-.form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .about-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -206,15 +208,13 @@ nav ul a{
 }
 
 .about-details img{
-    /* width: 80px;
-    height: 80px; */
     padding: 24px;
     border: 1px solid #FFFFFF;
     border-radius: 50%;
     background-color: #fff;
 }
-#Frame{
-    margin-bottom: 70px;
+#ul{
+    margin-bottom: 90px;
 }
 .about-details h2{
     height: 32px;
@@ -246,105 +246,91 @@ nav ul a{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.form{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.name-container {
+    display: flex;
+    justify-content: center; 
+    margin-right: 2px;
+   
+}
+.name-container, input{
+    margin:  5px;
+    padding: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #6B778C;
+    letter-spacing: 0.03em;
+    width: 100%;
+    border-color: #C1C7D0;
+   
+}
+.name-container input{
+     border: 1px solid #C1C7D0;
 
-#formDesc{
-      /* gap: 24px;  */
-     width: 463px;
-     height: 256px;
+}
+.email-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+}
+.email-container input{
+     border: 1px solid #C1C7D0;
+
+}
+ .message-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 24px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #6B778C;
+    letter-spacing: 0.03em;
+    width: 89%;
+    border-color: #C1C7D0;
+    border: 1px solid #C1C7D0;
+    margin-left: 26px;
+    margin-top: 20px;
+
+ }  
+ #formDesc{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
     font-weight: 700;
     font-size: 30px;
-    line-height: 52px; 
-    color: #172B4D; 
-     margin-top: 80px; 
-     text-align: center; 
-     
-}
-.form{
-   padding-top: 100px;
-   display: flex;
-   justify-content: flex-start;
-   align-items: center;
-   /* padding-left: 200px; */
-    
- } 
-#name{
-    width:330px;
-    height: 48px; 
-    padding-left : 16px;
-    padding-top: 15px; 
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 24px;
-    font-style: italic;
-    color: #6B778C;
-    border: 1px solid #C1C7D0;
-    border-radius: 4px;
-}
-#name2{
-     width: 330px;
-    height: 48px; 
-     padding-left: 16px;
-    padding-top: 15px; 
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 24px;
-    font-style: italic;
-    color: #6B778C;
-    border: 1px solid #C1C7D0;
-    border-radius: 4px;
+    color: #172B4D;
+    line-height: 52px;
 
-}
-#email{
-
-    width: 684px;
-    height: 48px; 
-    padding-left: 16px;
-    padding-top: 15px; 
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 24px;
-    font-style: italic;
-    color: #6B778C;
-    border: 1px solid #C1C7D0;
-    border-radius: 4px; 
-    
-
- } 
-#message{
-    width: 684px;
-    height: 114px;
-    padding-left: 16px;
-    padding-top: 15px;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 24px;
-    font-style: italic;
-    color: #6B778C;
-    border: 1px solid #C1C7D0;
-    border-radius: 4px; 
-}
-
-.form button{
-    color: #fff;
-    font-weight: 500;
+ }
+ .form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 17px;
+    font-weight: 500;
     line-height: 24px;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
+    text-align: center;
     border-radius: 4px;
     background-color: #36B37F;
     padding: 12px;
     border: none;
-    gap: 10px;
-    width: 129px;
-    height: 48px;
-}
-/* input{ */
-    /* margin: 10px ;
-    width: 100%;
-    padding: 15px;
-} */
-.name-container{
-    /* display: flex; */
-    /* justify-content: space-between; */
-    a
-}
+    margin-left: 25px;
+    color: #fff;
+    margin-top: 10px;
+ }

@@ -153,7 +153,7 @@
         <div class="about-section">
         <div class="about-details">
             <div id="Frame" class="img"><img src="./image/Frame.svg"></div>
-            <h2>Languages</h2>
+            <h2 id="h2">Languages</h2>
             <ul id="ul">
                 <li>JavaScript</li>
                 <li>Ruby</li>
@@ -189,12 +189,13 @@
             <p id="formDesc">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>   
             <form action="YOUR_ACTION_URL" method="post" class="formContainer">
                 <div class="name-container">
-                    <input type="text" placeholder="First Name" id="name" class="input" required />
-                    <input type="text" placeholder="Last Name" id="name2" class="input" required />
+                    <input type="text" placeholder="First Name" required />
+                    <input type="text" placeholder="Last Name"  required />
                 </div>
-                <input type="email" placeholder="Email Address" id="email" class="input" required />
-                <textarea class="input" name="message" id="message" maxlength="300" required placeholder="Type something"></textarea> <br>
-                <button type="submit">Get In Touch</button>
+                <div class="email-container">               
+                     <input type="email" placeholder="Email Address"  required /></div>
+                <textarea class="message-container" name="message"  maxlength="300" required placeholder="Type something"></textarea> <br>
+                <button type="submit">Get in touch</button>
             </form>
         </div>
     </section>
