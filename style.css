@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+button:hover {
+  background-color: #60c095;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -361,8 +365,4 @@ nav ul a {
   border: none;
   color: #fff;
   cursor: pointer;
-}
-
-button:hover {
-  background-color: #60c095;
 }
