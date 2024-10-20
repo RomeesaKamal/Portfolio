@@ -21,7 +21,7 @@ nav ul {
   align-items: center;
   gap: 4rem;
   list-style: none;
-  font-size: 2rem;
+  font-size: 24px;
   font-weight: 600;
   line-height: 44px;
   color: #344563;
@@ -31,12 +31,18 @@ nav ul a {
   color: #344563;
 }
 
-.hero {
+.hero-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
   margin-top: 160px;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .heroTitle,
@@ -44,17 +50,21 @@ nav ul a {
   font-size: 48px;
   font-weight: 800;
   color: #172b4d;
+  line-height: 60px;
+  grid-column: 2 / span 2;
 }
 
 .heroSubtitle {
   color: #36b37e;
 }
 
-.heroDesc {
+.hero-section p {
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
   color: #172b4d;
+  grid-column: 2 / span 2;
+  padding-top: 24px;
 }
 
 .socialContainer ul {
@@ -111,6 +121,7 @@ nav ul a {
   margin-bottom: 20px;
   background-color: #36b37f;
   border: none;
+  cursor: pointer;
 }
 
 .projectImage {
@@ -187,15 +198,14 @@ nav ul a {
   padding: 12px;
   border: none;
   gap: 199px;
+  cursor: pointer;
 }
 
 .about-section {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(15, 1fr);
   gap: 40px;
   margin-top: 48px;
-  padding-left: 250px;
-  padding-right: 250px;
 }
 
 .about-details {
@@ -204,10 +214,20 @@ nav ul a {
   border: 1px solid #c1c7d0;
   border-radius: 10px;
   align-items: center;
-  justify-content: center;
-  width: 369px;
-  height: 316px;
   background-color: #ebf0ee;
+  padding: 24px;
+}
+
+.about-card-1 {
+  grid-column: 4 / span 3;
+}
+
+.about-card-2 {
+  grid-column: 7 / span 3;
+}
+
+.about-card-3 {
+  grid-column: 10 / span 3;
 }
 
 .img {
@@ -226,10 +246,6 @@ nav ul a {
   background-color: #fff;
 }
 
-#ul {
-  margin-bottom: 90px;
-}
-
 .about-details h2 {
   height: 32px;
   font-weight: 600;
@@ -239,7 +255,6 @@ nav ul a {
 }
 
 .about-details li {
-  list-style: none;
   background-color: #fff;
   padding: 16px;
   border-radius: 8px;
@@ -247,7 +262,6 @@ nav ul a {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 3%;
-  gap: 8px;
 }
 
 .about-details ul {
@@ -256,7 +270,7 @@ nav ul a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 8px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -267,14 +281,14 @@ nav ul a {
 
 .form-section {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(11, 1fr);
   margin-top: 80px;
   margin-bottom: 80px;
   gap: 20px;
 }
 
 .form-section h2 {
-  grid-column: 2 / span 3;
+  grid-column: 3 / span 3;
   font-size: 30px;
   font-weight: 700;
   line-height: 52px;
@@ -285,7 +299,7 @@ nav ul a {
 }
 
 .form-section form {
-  grid-column: 5 / span 4;
+  grid-column: 6 / span 4;
   display: grid;
   gap: 24px;
 }
@@ -349,6 +363,6 @@ nav ul a {
   cursor: pointer;
 }
 
-.form-section form button:hover {
+button:hover {
   background-color: #60c095;
 }
