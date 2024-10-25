@@ -156,7 +156,7 @@ nav ul a {
   cursor: pointer;
 }
 
-.project button:hover {
+.about button:hover {
   background-color: #1ac980;
 }
 
@@ -175,9 +175,11 @@ nav ul a {
   cursor: pointer;
 }
 
-.about button:hover {
+.project button:hover {
   background-color: #1ac980;
 }
+
+
 
 
 .projectImage {
