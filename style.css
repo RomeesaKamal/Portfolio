@@ -17,7 +17,8 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  background: url("./Background/header\ image.png") no-repeat 56% 0%,
+  background:
+    url("./Background/header\ image.png") no-repeat 56% 0%,
     url("./Background/bottom\ right\ image.svg") no-repeat bottom right,
     url("./Background/bottom\ box.svg") no-repeat bottom left,
     url("./Background/right\ center\ image.png") no-repeat 100% 70%,
@@ -156,10 +157,6 @@ nav ul a {
   cursor: pointer;
 }
 
-.about button:hover {
-  background-color: #1ac980;
-}
-
 .form-section form button {
   width: fit-content;
   font-size: 17px;
@@ -173,6 +170,10 @@ nav ul a {
   border: none;
   color: #fff;
   cursor: pointer;
+}
+
+.about button:hover {
+  background-color: #1ac980;
 }
 
 .project button:hover {
