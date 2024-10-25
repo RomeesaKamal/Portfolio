@@ -141,6 +141,39 @@ nav ul a {
   border: none;
   cursor: pointer;
 }
+
+.about button {
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  border-radius: 4px;
+  background-color: #36b37f;
+  padding: 12px;
+  border: none;
+  gap: 199px;
+  cursor: pointer;
+}
+
+.form-section form button {
+  width: fit-content;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #36b37f;
+  padding: 12px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.about button:hover {
+  background-color: #1ac980;
+}
 .project button:hover {
   background-color: #1ac980;
 }
@@ -206,23 +239,6 @@ nav ul a {
   font-size: 20px;
   line-height: 32px;
   color: #42526e;
-}
-
-.about button {
-  color: #fff;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 3%;
-  border-radius: 4px;
-  background-color: #36b37f;
-  padding: 12px;
-  border: none;
-  gap: 199px;
-  cursor: pointer;
-}
-.about button:hover {
-  background-color: #1ac980;
 }
 
 .about-section {
@@ -372,20 +388,6 @@ nav ul a {
   outline-color: #60c095;
 }
 
-.form-section form button {
-  width: fit-content;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  border-radius: 4px;
-  background-color: #36b37f;
-  padding: 12px;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-}
 .form-section button:hover {
   background-color: #1ac980;
 }
