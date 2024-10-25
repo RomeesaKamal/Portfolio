@@ -9,14 +9,21 @@ a {
   text-decoration: none;
 }
 
-button:hover {
-  background-color: #60c095;
-}
+/* button:hover {
+  background-color: #1b2420;
+} */
 
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 24px;
+  background:
+    url("./Background/header\ image.png") no-repeat 56% 0%,
+    url("./Background/bottom\ right\ image.svg") no-repeat bottom right,
+    url("./Background/bottom\ box.svg") no-repeat bottom left,
+    url("./Background/right\ center\ image.png") no-repeat 100% 70%,
+    url("./Background/center\ leftt\ img.svg") no-repeat 0 72%,
+    url("./Background/bottom\ image\ 2.svg") no-repeat 30% bottom;
 }
 
 nav ul {
@@ -80,7 +87,15 @@ nav ul a {
   margin: 40px;
 }
 
+.socialContainer1 ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .works {
+  margin-top: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,6 +141,43 @@ nav ul a {
   background-color: #36b37f;
   border: none;
   cursor: pointer;
+}
+
+.about button {
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  border-radius: 4px;
+  background-color: #36b37f;
+  padding: 12px;
+  border: none;
+  gap: 199px;
+  cursor: pointer;
+}
+
+.form-section form button {
+  width: fit-content;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #36b37f;
+  padding: 12px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.about button:hover {
+  background-color: #1ac980;
+}
+
+.project button:hover {
+  background-color: #1ac980;
 }
 
 .projectImage {
@@ -189,20 +241,6 @@ nav ul a {
   font-size: 20px;
   line-height: 32px;
   color: #42526e;
-}
-
-.about button {
-  color: #fff;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 3%;
-  border-radius: 4px;
-  background-color: #36b37f;
-  padding: 12px;
-  border: none;
-  gap: 199px;
-  cursor: pointer;
 }
 
 .about-section {
@@ -352,17 +390,6 @@ nav ul a {
   outline-color: #60c095;
 }
 
-.form-section form button {
-  width: fit-content;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  border-radius: 4px;
-  background-color: #36b37f;
-  padding: 12px;
-  border: none;
-  color: #fff;
-  cursor: pointer;
+.form-section button:hover {
+  background-color: #1ac980;
 }
