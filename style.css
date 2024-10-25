@@ -156,6 +156,10 @@ nav ul a {
   cursor: pointer;
 }
 
+.project button:hover {
+  background-color: #1ac980;
+}
+
 .form-section form button {
   width: fit-content;
   font-size: 17px;
@@ -174,9 +178,7 @@ nav ul a {
 .about button:hover {
   background-color: #1ac980;
 }
-.project button:hover {
-  background-color: #1ac980;
-}
+
 
 .projectImage {
   width: 369px;
