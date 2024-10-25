@@ -17,13 +17,12 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 24px;
-   background:
-   url('./Background/header\ image.png') no-repeat 56% 0%,
-  url("./Background/bottom\ right\ image.svg") no-repeat bottom right,
-  url("./Background/bottom\ box.svg") no-repeat bottom left,
-  url("./Background/right\ center\ image.png") no-repeat 100% 70%,
-  url("./Background/center\ leftt\ img.svg") no-repeat 0 72%,
-  url('./Background/bottom\ image\ 2.svg') no-repeat 30% bottom;
+  background: url("./Background/header\ image.png") no-repeat 56% 0%,
+    url("./Background/bottom\ right\ image.svg") no-repeat bottom right,
+    url("./Background/bottom\ box.svg") no-repeat bottom left,
+    url("./Background/right\ center\ image.png") no-repeat 100% 70%,
+    url("./Background/center\ leftt\ img.svg") no-repeat 0 72%,
+    url("./Background/bottom\ image\ 2.svg") no-repeat 30% bottom;
 }
 
 nav ul {
