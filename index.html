@@ -4,20 +4,20 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>RK Porttfolio</title>
+	<title>RK Portfolio</title>
 	<link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+	<div class="frontPage">
 	<header>
-		<nav>
-			<div><a href="#">Welcome</a></div>
+		<nav class="nav-bar">
+			<div class="welcome"><a href="#">Welcome</a></div>
 			<ul>
 				<li><a href="#profile">Work</a></li>
 				<li><a href="#about"></a>About</li>
 				<li><a href="#contact"></a>Contact</li>
 			</ul>
-			<button></button>
 		</nav>
 	</header>
 	<section class="hero-section">
@@ -61,6 +61,7 @@
 				</li>
 			</ul>
 		</div>
+	</div>
 	</section>
 	<section class="projectSection">
 		<div class="works">
@@ -164,9 +165,9 @@
 			<h2>About Me</h2>
 			<p>
 				Unleash your vision! I craft Digital Masterpieces. Explore my dazzling
-				Protfolio, showcasing unparalled<br />
+				Protfolio, showcasing unparalled
 				experties. Transform your dreams into reality with mt coding genius.
-				Seeking innovation? <br />
+				Seeking innovation? 
 				Collaborate with me today! Let's resharp the digital horizon together!
 			</p>
 			<button>Get my resume</button>
@@ -175,7 +176,7 @@
 	<section class="about-section">
 		<div class="about-details about-card-1">
 			<div id="Frame" class="img">
-				<img src="./image/Frame.svg" />
+				<img src="./image/Icon Langguage.svg" />
 			</div>
 			<h2 id="h2">Languages</h2>
 			<ul>
@@ -214,19 +215,30 @@
 			I'm always interested in hearing about new projects, so if you'd like to
 			chat please get in touch.
 		</h2>
-		<form action="YOUR_ACTION_URL" method="post">
-			<div class="user-name">
-				<input type="text" placeholder="First Name" required />
-				<input type="text" placeholder="Last Name" required />
-			</div>
-			<input type="email" placeholder="Email Address" required />
-			<textarea class="message-container" name="message" maxlength="300" required
-				placeholder="Type something"></textarea>
-			<button type="submit">Get in touch</button>
-		</form>
+		<form id="formID">
+			<div class="userName">
+			<div class="user-first-name">
+			<input type="text" id="firstName"  placeholder="First Name">
+			<span class="firstNameError"></span>
+		</div>
+			<div class="user-second-form">
+			<input type="text" id="lastName"  placeholder="Last Name">
+			<span class="lastNameError"></span>
+		</div>
+	</div>
+			<input type="email" id="email"  placeholder="Email Address">
+			<span class="emailError"></span>
+		  
+			<textarea id="message" ></textarea>
+			<span class="textAreaError"></span>
+		  
+			<button id="btn">Get in touch</button>
+			<p class="sucessMessage"></p>
+		  </form>
+		  
 	</section>
 	<section>
-		<div class="socialContainer1">
+		<div class="footer">
 			<ul>
 				<li>
 					<a href="">
@@ -257,6 +269,7 @@
 		
 		</div>
 	</section>
+	<script src="form.js"></script>
 </body>
 
 </html>
