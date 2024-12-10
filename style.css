@@ -12,8 +12,8 @@ body {
     /* url("./Background/header\ image.png") no-repeat center center , */
     url("./Background/bottom\ right\ image.svg") no-repeat bottom right,
     url("./Background/bottom\ box.svg") no-repeat bottom left,
-    url("./Background/right\ center\ image.png") no-repeat 100% 70%,
-    url("./Background/center\ leftt\ img.svg") no-repeat 0 72%,
+    url("./Background/right\ center\ image.png") no-repeat 100% 65%,
+        url("./Background/center\ leftt\ img.svg") no-repeat 0 75%,
     url("./Background/bottom\ image\ 2.svg") no-repeat 30% bottom;
 }
 
@@ -139,7 +139,8 @@ nav ul a {
 /* Projects Styling  */
 
 .works {
-  margin-top: 10rem;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,7 +148,7 @@ nav ul a {
   font-weight: 700;
   line-height: 52px;
   color: #172b4d;
-  text-shadow: -2px 3px 4px #b8b1b1;
+  text-shadow: -4px 3px 4px #b8b1b1;
   overflow: hidden;
 
 }
