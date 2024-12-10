@@ -51,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (lastName.value.trim() === "") {
       lastNameError.textContent = "This field is required";
+      lastNameError.style.color = 'red';
       hasError = true;
     } else {
       lastNameError.textContent = "";
@@ -58,9 +59,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (email.value.trim() === "") {
       emailError.textContent = "This field is required";
+      emailError.style.color = 'red';
       hasError = true;
     } else if (!/\S+@\S+\.\S+/.test(email.value.trim())) {
       emailError.textContent = "Invalid email address";
+      emailError.style.color = 'red';
       hasError = true;
     } else {
       emailError.textContent = "";
@@ -68,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (textArea.value.trim() === "") {
       textAreaError.textContent = "This field is required";
+      textAreaError.style.color = 'red';
       hasError = true;
     } else {
       textAreaError.textContent = "";
