@@ -211,6 +211,7 @@ nav ul a {
 
 .project button:hover{
   transform: scale(1.123);
+  transition: 1s ease-in-out;
   font-size: large;
   box-shadow: 0;
   background-color: #1ac980;
@@ -274,6 +275,7 @@ button{
 
 .about button:hover {
   background-color: #1ac980;
+  transition: 1s ease-in-out;
   transform: scale(1.123);
   font-size: large;
 }
@@ -487,6 +489,7 @@ button{
 
 .form-section button:hover {
   background-color: #1ac980;
+  transition: 1s ease-in-out;
   transform: scale(1.123);
   font-size: large;
 }
@@ -606,6 +609,7 @@ button{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 2rem;
  }
 
  #formID button{
